@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-permissions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxPermissions/SpFxPermissionsWebPart.js",
+          "manifest": "./src/webparts/spFxPermissions/SpFxPermissionsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxPermissionsWebPartStrings": "lib/webparts/spFxPermissions/loc/{locale}.js"
+  }
+}
